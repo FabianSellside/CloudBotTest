@@ -23,7 +23,7 @@ const server = http.createServer((req, res) => {
     console.log('New connection')
     res.end('Hello Sellside conectado')
 })
-const port = process.env.PORT || 3000
+const port = process.env.PORT || 8080
 var client;
 app.use('/', require('./routes/web'))
 
