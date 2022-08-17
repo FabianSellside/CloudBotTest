@@ -1,0 +1,20 @@
+{
+   "steps": [
+      {
+         "name": "gcr.io/cloud-builders/docker",
+         "args": [
+            "build",
+            "-t",
+            "global-docker.pkg.dev/${wspbotproject}/wspbot/gcr.io/wspbotproject/cloudbottest:$SHORT_SHA",
+            "."
+         ]
+      }
+      {
+        "name": "gcr.io/cloud-builders/docker",
+         "args": [
+            "push",
+            "global-docker.pkg.dev/${wspbotproject}/wspbot/gcr.io/wspbotproject/cloudbottest:$SHORT_SHA"
+         ]
+      }
+   ]
+}
