@@ -4,4 +4,4 @@ WORKDIR /app
 
 ADD . /app
 
-CMD node app.js
+CMD node server.js

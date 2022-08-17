@@ -137,7 +137,7 @@ client = new Client({
 client.on('qr', qr => generateImage(qr, () => {
         qrcode.generate(qr, { small: true });
         
-        console.log(`Ver QR https://wspbotproject-w7zkpc3uca-tl.a.run.app/:${port}/qr`)
+        console.log(`Ver QR http://localhost:${port}/qr`)
         socketEvents.sendQR(qr)
 }))
 
@@ -168,6 +168,7 @@ if (process.env.DATABASE === 'mysql') {
     mysqlConnection.connect()
 }
 
+const PORT = process.env.PORT || 8080
 server.listen(PORT, () => console.log('Listening'))
 
 checkEnvFile();
