@@ -1,6 +1,6 @@
 steps:
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '-t', 'gcr.io/wspbotproject/cloudbottest:$SHORT_SHA', './backend']
+  args: ['build', '-t', 'gcr.io/wspbotproject/cloudbottest:$SHORT_SHA', '.']
 - name: 'gcr.io/cloud-builders/docker'
   args: ['push', 'gcr.io/wspbotproject/cloudbottest:$SHORT_SHA']
 - name: 'gcr.io/cloud-builders/gcloud'
