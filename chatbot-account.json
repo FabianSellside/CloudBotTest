@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "natural-306805",
+  "private_key_id": "9a5f555989560ff42fd95506073a64f1804e035a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCodl5feQ74u5Bs\na3b3ABClqD3fu8tLzA/Www86owdnuJWFf5Omj1sZmtHPCvCdAxBqEWYTbp6YC/J8\nQVtk7Ft8qb+sh0GRY8B3QrQQ9IqwnvEY25m34r5wdg3f48j05cjOPmSvECj08nH1\nWuS6momfSiolsd6vSzmTCY3Dutvho+FXRPVaeozyKjkHIpSc5m54T+yStxQL+/61\nwsTHu6kJX3OZc6pwH82TsaqYO+x3MAPDP4Ihlh00ykxcRAzjf2vGRpaiW0ve9ABZ\nGj43tMW4w6hRRLuvg6qbiyhBIRKrhVQwLOhUf7RIajgNY2zelqV5E/8ZnScLgOhi\nEg9hHKLpAgMBAAECggEANtbBhebMnt+/9etNwL4+rQ6Fhc2GMlhtV4YL8RSdFoCZ\n++k50WCdUUp6viFbjmEu+LhNOEosSmapOxWzgLkIVx6TDMDC8Wc9ghUutM5GT5SN\n+3+RHLEtOULU5WsrQb2Djs/0yqBCFOrPegVqq+wenMHx0m+ChCHCzkCv62Vqqpq9\nC3Iwi620HZCgUHKH0kd31vdeM/ZLQLAabtNLmC1PQ9NoAgzD+vS/x6ZR/g4gDgAb\nPJTWWD6fDin9Y+WXolVh0vdsacdZxMj50+BRjh66sEuoIpKu9Llgfi9CrmwxvYHa\nuZLdw5WBwdQHX/jqzlwt4J3FI52qI+GB3q7+4oeLOQKBgQDc68XNik6nLy/+TqlX\nRbjSH6CK+lhnipWH5M6Lw4sOOPQGZuDz1amUnYxd6dTeijAPUtgTJixRz0/alJv0\nk5Z2PmedB+Ej98kTosPF7SPibCdKURJbB9lsw0kmq7mEzBttdXDEIuzUBsXNW5fU\nvKDwh3XFEmMT73BPTMZpojfONwKBgQDDNjQcJq+PUzphfZG9V8M+n8fGQY7+ZzNn\nfloSDERKc3ZlbaZkbusdMIjgcKzRo15Bze2gT8JP6SxzxfDdx2PbfMS0CgdNBzjD\nzqvXkCLp4wKNAzX7rFdC9jxhRb2Qx7s1PONEop5zmIWox9K2c881i9dreVuOeKJZ\nMeRoaMeH3wKBgDzkf9D3nlZWm1PtOp/jh93i+c1U06k2eaDLYGMFsv5olFpvYPHU\norlj85yvJw1v6W9P1l7w1qZ2DfyhmZsAUyikasrNsTDIy5Ot+WhExO9UAEBruDN/\nJl7kNPWDv87qs2SoSjzFo6GNfFfuNxtcIsApljyLpOOJy9sPvmC/ZcJhAoGABRNb\nt3+qAOgBFJfXOj0V7oLpBtadiS/VvlMitGVtQSJPacO4F9RqeI/Sf0NuuuSshrl7\n/DcWrk05wqja4mlUx1gvJR89oVsWtsCg5zHwNnSYlGII/Uo12p/cYgsWKrWGwJOc\ntSQlSowkrYbEi8nnEVVZfInjP4kTb45EihJvXbECgYBfXPi24PoDKBGRHXQAUkIJ\nVgpjIoQdhJudK6/jt5WxDJSFDDCFUddId3INEx+OowgdYaLMQfW8KvOfBnf4buX5\nC/wKV0Is6aKKv5/yXlqelqYL0URb+UBFXP2TCRV/nAPjf/8BcvqGpJh1uGjwTkkD\n0UPZBeWXWPSc7LaNEdXj+g==\n-----END PRIVATE KEY-----\n",
+  "client_email": "whatsappsellside@natural-306805.iam.gserviceaccount.com",
+  "client_id": "118422718066842783168",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/whatsappsellside%40natural-306805.iam.gserviceaccount.com"
+}

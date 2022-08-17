@@ -1,0 +1,7 @@
+steps:
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['build', '-t', 'gcr.io/wspbotproject/cloudbottest:$SHORT_SHA', '.']
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['push', 'gcr.io/wspbotproject/cloudbottest:$SHORT_SHA']
+- name: 'gcr.io/cloud-builders/gcloud'
+  args: ['beta','run', 'deploy', 'wspbotproject', '--region=southamerica-west1', '--platform=managed', '--image=gcr.io/wspbotproject/cloudbottest:$SHORT_SHA']
