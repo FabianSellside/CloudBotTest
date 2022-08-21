@@ -7,6 +7,7 @@ WORKDIR /app
 ENV PORT 8080
 ENV HOST 0.0.0.0
 
-ADD . /app
+RUN npm install
+COPY . .
 
 CMD node app.js
