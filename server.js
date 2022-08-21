@@ -37,7 +37,7 @@ const server = http.createServer((req, res) => {
     console.log('New connection')
     res.end('Hello Sellside conectado')
 })
-const port = process.env.PORT || 8080
+const port = process.env.PORT || 80
 var client;
 app.use('/', require('./routes/web'))
 
@@ -182,7 +182,7 @@ if (process.env.DATABASE === 'mysql') {
     mysqlConnection.connect()
 }
 
-const PORT = process.env.PORT || 8080
+const PORT = process.env.PORT || 80
 server.listen(PORT, () => console.log('Listening'))
 
 checkEnvFile();
