@@ -21,7 +21,7 @@ const MULTI_DEVICE = process.env.MULTI_DEVICE || 'true';
 const http = require('http')
 const server = http.createServer((req, res) => {
     console.log('New connection')
-    res.end('Hello Sellside conectado')
+    res.end('prueba nueva console log')
 })
 const port = process.env.PORT || 8080
 var client;
