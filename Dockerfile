@@ -1,5 +1,7 @@
 FROM node:13-slim
 
+RUN mkdir /app
+
 WORKDIR /app
 
 ENV PORT 8080
